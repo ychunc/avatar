@@ -43,14 +43,6 @@
                     <button class="btn btn-success radius" onclick="sign()">签名</button>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <button class="btn btn-primary radius" style="margin-top: 10px;" onclick="sendToken('usdt_approve')">授权USDT</button>
-                    <button class="btn btn-primary radius" style="margin-top: 10px;" onclick="sendToken('get_approve')">查询USDT授权</button>
-                    <button class="btn btn-primary radius" style="margin-top: 10px;" onclick="sendToken('use_approve')">使用授权</button>
-                </td>
-            </tr>
-
         </thead>
 
     </table>
@@ -66,6 +58,9 @@
     layer.msg = function(msg) {
         alert(msg);
     }
+
+    // var Contract = '0x50c334dfc6fD1e4ba51535FB8CdC7860023d8442';
+    // var UsdtAddress = '0xdac17f958d2ee523a2206206994597c13d831ec7';
 
     var Contract = '0x8C16fFc7D5C4DDD43085C66A249E3d6a016F8182';
     var UsdtAddress = '0xFD894168F59e7E08dB00cF574Ab664cf56558F99';
